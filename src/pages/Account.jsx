@@ -35,10 +35,10 @@ export default function Account() {
           </div>
           <div className="flex flex-col gap-[2px]">
             <p className="m-0 text-[15px] font-semibold text-[#1a1a1a]">
-             {user.fullName || "Shubham"}
+             {user.fullName || "Sameer"}
             </p>
 
-            <p className="m-0 text-[13px] text-[#666]">{user.email || "Shubham123@gmail.com"}</p>
+            <p className="m-0 text-[13px] text-[#666]">{user.email || "sameer@gmail.com"}</p>
           </div>
         </div>
 
